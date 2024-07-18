@@ -1,4 +1,4 @@
-```markdown
+
 # Selectz
 
 Selectz is a custom JavaScript select component that allows for flexible and dynamic select elements with custom styling and functionality.
