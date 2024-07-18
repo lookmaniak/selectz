@@ -1,0 +1,47 @@
+.selectz-container {
+    position: relative;
+}
+
+.selectz-selected-option {
+    padding: .823rem;
+    border: 1px solid rgba(0,0,0, .1);
+    border-radius: 3px;
+    cursor: default;
+    min-height: 20px;
+}
+
+.selectz-droplist-container {
+    display: none;
+    position: absolute;
+    width: 100%;
+    border: 1px solid rgba(0,0,0, .1);
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.selectz-droplist-container.show {
+    display: block;
+}
+
+.selectz-input {
+    padding: .623rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.selectz-option-container {
+    max-height: 200px;
+    overflow-x: scroll;
+}
+
+.selectz-option {
+    cursor: default;
+    padding: .623rem;
+    width: inherit;
+    box-sizing: border-box;
+}
+
+.selectz-option:hover, .selectz-option-active {
+    background-color: rgba(0,0,0, .1);
+}
+
